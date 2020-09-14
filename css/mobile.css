@@ -1,0 +1,8 @@
+@media(max-width:400px){
+    .logo-img{
+        width: 60px;
+    }
+    .btn-outline-danger{
+        font-size: 14px;
+    }
+}
