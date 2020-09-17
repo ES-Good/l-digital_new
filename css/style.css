@@ -15,15 +15,54 @@
 }
 
 canvas{
-    background-image: url(../img/section-banner-top/banner.jpg);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
+    position: absolute;
+    top: 0;
     background-color: #000;
     width: 100%;
+    z-index: -1;
 }
 
 .card-img{
     width: 60px;
     margin: 0 auto;
+}
+
+.navbar-nav{
+    font-weight: bold;
+}
+
+.banner{
+    padding-top: 125px;
+    padding-bottom: 103px;
+}
+
+.banner-left-container{
+    color: #e45761;
+    padding: 10px;
+    background-color: rgba(0,0,0, 0.7);
+}
+
+.banner-left-container__header__title{
+    font-size: 50px;
+}
+
+.banner-left-container__header__description{
+    font-size: 22px;
+}
+.banner-right-container{
+    position: relative;
+}
+
+.banner-right-container__logo{
+    position: absolute;
+    left: 32%;
+    top: -80px;
+}
+
+.banner-right-container__text{
+    font-size: 65px;
+    text-align: center;
+    font-weight: bold;
+    color: #e45761;
+    font-family: Arial Black;
 }
