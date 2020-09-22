@@ -1,27 +1,38 @@
 @font-face {
     font-family: "Montserrat-Black";
-    src: url("../fonts/Montserrat-Black.woff") format("woff"), /* Modern Browsers */
-      url("../fonts/Montserrat-Black.woff2") format("woff2"); /* Modern Browsers */
+    src: url("../fonts/Montserrat-Black.woff") format("woff"), 
+      url("../fonts/Montserrat-Black.woff2") format("woff2"); 
+    font-weight: normal;
+    font-style: normal;
+  }
+
+@font-face {
+    font-family: "PFCentroSansPro-Bold";
+    src: url("../fonts/PFCentroSansPro-Bold.woff") format("woff"), 
+      url("../fonts/PFCentroSansPro-Bold.woff2") format("woff2"); 
     font-weight: normal;
     font-style: normal;
   }
 
 @font-face {
     font-family: "PFCentroSansPro-Regular";
-    src: url("../fonts/PFCentroSansPro-Regular.woff") format("woff"), /* Modern Browsers */
-      url("../fonts/PFCentroSansPro-Regular.woff2") format("woff2"); /* Modern Browsers */
+    src: url("../fonts/PFCentroSansPro-Regular.woff") format("woff"), 
+      url("../fonts/PFCentroSansPro-Regular.woff2") format("woff2"); 
     font-weight: normal;
     font-style: normal;
   }
 
 @font-face {
     font-family: "PFCentroSansPro-UBlack";
-    src: url("../fonts/PFCentroSansPro-UBlack.woff") format("woff"), /* Modern Browsers */
-      url("../fonts/PFCentroSansPro-UBlack.woff2") format("woff2"); /* Modern Browsers */
+    src: url("../fonts/PFCentroSansPro-UBlack.woff") format("woff"), 
+      url("../fonts/PFCentroSansPro-UBlack.woff2") format("woff2"); 
     font-weight: normal;
     font-style: normal;
   }
 
+body{
+    font-family: "PFCentroSansPro-Regular";
+}
 .logo-img{
     width: 45px;
 }
@@ -45,4 +56,52 @@
     border-radius: 30px;
     padding: 15px 35px;
     font-size: 18px;
+    font-family: "PFCentroSansPro-Bold";
+}
+
+.text-dark{
+    color: #616161 !important;
+}
+
+.text-red{
+    color: #ed5b65;
+}
+
+.title-big{
+    font-family: "PFCentroSansPro-UBlack";
+    font-size: 46px;
+}
+
+.img-r-column{
+    width: 100%;
+}
+
+.desktop-ofers{
+    margin-top: 200px;
+}
+
+.discription-top-section{
+    font-size: 24px;
+    color: #616161;
+}
+
+.container-ofer{
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px #827f7f;
+}
+
+.ofer,
+.ofer-discription{
+    text-align: center;
+}
+
+.ofer{
+    font-size: 60px;
+    font-family: "Montserrat-Black";
+}
+
+.ofer-discription{
+    color: #616161;
+    font-size: 24px;
 }

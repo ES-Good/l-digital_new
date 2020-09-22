@@ -1,10 +1,15 @@
-@media(max-width:576px){
-
-}
-
 @media(min-width:576px){
     .btn-top-section{
         position: absolute;
+    }
+}
+
+@media(max-width:576px){
+    .title-big{
+        font-size: 24px;
+    }
+    .desktop-ofers{
+        display: none;
     }
 }
 
