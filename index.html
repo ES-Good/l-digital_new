@@ -11,104 +11,49 @@
     <link rel="stylesheet" href="css/mobile.css">
 </head>
 <body>
-    <div class="container-fluid border-bottom bg-light shadow sticky-top">
-        <nav class="navbar navbar-expand-sm navbar-light">
+    <div class="container-fluid sticky-top">
+        <nav class="navbar navbar-expand-md navbar-light">
             <div class="container">
-                <a href="#" class="navbar-brend flex-column text-decoration-none d-flex align-items-center">
-                    <img src="img/logo/logo.png" alt="logo" class="logo-img">
-                </a>
-                <button type="button" class="btn btn-outline-danger order-1 order-sm-3">Свяжитесь с нами</button>
-                <button class="navbar-toggler order-2" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse justify-content-center order-3 order-sm-1" id="navbarNav">
+                <a href="#" class="navbar-brend flex-column text-decoration-none d-flex align-items-center">
+                  <img src="img/logo/logo.png" alt="logo" class="logo-img">
+                </a>
+                <button type="button" class="btn phone-mobile"><img src="img/phone/phone.png" alt=""></button>
+                <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
                     <ul class="navbar-nav">
                       <li class="nav-item text-center active">
-                        <a class="nav-link" href="#">Home</a>
+                        <a class="nav-link" href="#">Главная</a>
                       </li>
                       <li class="nav-item text-center">
-                        <a class="nav-link" href="#">Features</a>
+                        <a class="nav-link" href="#">Услуги</a>
                       </li>
                       <li class="nav-item text-center">
-                        <a class="nav-link" href="#">Pricing</a>
+                        <a class="nav-link" href="#">Проекты</a>
+                      </li>
+                      <li class="nav-item text-center">
+                        <a class="nav-link" href="#">Контакты</a>
+                      </li>
+                      <li class="nav-item text-center">
+                        <a class="nav-link" href="#">О компании</a>
                       </li>
                     </ul>
                   </div>
-            </div>
+              </div>
         </nav>
     </div>
-    <div class="container-fluid p-0 position-relative">
-      <div class="banner d-flex justify-content-around">
-        <div class="banner-left-container">
-          <div class="banner-left-container__header mb-5">
-            <h2 class="banner-left-container__header__title">Результативный интернет маркетинг</h2>
-            <h6 class="banner-left-container__header__description">Создание сайта и привлечение клиентов в ваш бизнес "под ключ"</h6>
+    <div class="container-fluid px-0 bg-top-section">
+      <div class="container">
+        <div class="row d-flex flex-wrap">
+          <div class="col-12 col-md-5">
+            <h1>Результативный<br> интернет-маркетинг</h1>
+            <h2>Создание сайтов и привлечение клиентов
+              в ваш бизнес "под ключ"</h2>
+              <button class="btn-red text-nowrap btn-top-section">Получить предложение</button>
           </div>
-          <ul class="list-group">
-            <li class="list-group-item border-0 p-0 item-first">Работая с нами вы получаете:</li>
-            <li class="list-group-item border-0 p-0 item-banner">Надёжность и качество</li>
-            <li class="list-group-item border-0 p-0 item-banner">Выгодная стоимость заявки</li>
-            <li class="list-group-item border-0 p-0 item-banner">Соблюдение дедлайнов</li>
-            <li class="list-group-item border-0 p-0 item-banner">Современные решения</li>
-            <li class="list-group-item border-0 p-0 item-banner">Измеримый и видемый результат</li>
-          </ul>
-        </div>
-        <div class="banner-right-container">
-          <img class="banner-right-container__logo" src="img/section-banner-right/banner-r-logo.png" alt="">
-          <img src="img/section-banner-right/banner-r-img.png" alt="">
-          <p class="banner-right-container__text">DIGITAL</p>
-        </div>
-      <canvas id="canvas"></canvas>
-      </div>
-    </div>
-    <div class="container-fluid py-4">
-      <div class="row d-flex justify-content-around mt-3">
-        <div class="card my-4 rounded-0 border-0 col-12 col-md-6 col-lg-3" style="max-width: 540px;">
-          <div class="row no-gutters">
-            <div class="col-3 d-flex align-items-start">
-              <img src="img/cards/1-price.png" class="card-img" alt="...">
-            </div>
-            <div class="col-9 d-flex align-items-center">
-              <div class="card-body p-0">
-                <h6 class="card-title mb-0">Низкая стоимость заявки</h6>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="card my-4 rounded-0 border-0 col-12 col-md-6 col-lg-3" style="max-width: 540px;">
-          <div class="row no-gutters">
-            <div class="col-3 d-flex align-items-start">
-              <img src="img/cards/2-target.png" class="card-img" alt="...">
-            </div>
-            <div class="col-9 d-flex align-items-center">
-              <div class="card-body p-0">
-                <h6 class="card-title mb-0">Над проектом работает команда из 4-5 человек</h6>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="card my-4 rounded-0 border-0 col-12 col-md-6 col-lg-3" style="max-width: 540px;">
-          <div class="row no-gutters">
-            <div class="col-3 d-flex align-items-start">
-              <img src="img/cards/3-crm.png" class="card-img" alt="...">
-            </div>
-            <div class="col-9 d-flex align-items-center">
-              <div class="card-body p-0">
-                <h6 class="card-title mb-0">Интеграция с вашей CRM</h6>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="card my-4 rounded-0 border-0 col-12 col-md-6 col-lg-3" style="max-width: 540px;">
-          <div class="row no-gutters">
-            <div class="col-3 d-flex align-items-start">
-              <img src="img/cards/4-portfolio.png" class="card-img" alt="...">
-            </div>
-            <div class="col-9 d-flex align-items-center">
-              <div class="card-body p-0">
-                <h6 class="card-title mb-0">Интеграция с вашей CRM</h6>
-              </div>
-            </div>
+          <div class="col-12 col-md-7 order-1">
+            <img src="img/top-section/right-img.png" alt="banner" class="img-fluid">
           </div>
         </div>
       </div>

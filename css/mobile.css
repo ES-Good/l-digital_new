@@ -1,11 +1,26 @@
 @media(max-width:576px){
-    canvas{
-        background-size: 720px;
+
+}
+
+@media(min-width:576px){
+    .btn-top-section{
+        position: absolute;
     }
 }
 
-@media(max-width:400px){
-    .btn-outline-danger{
-        font-size: 12px;
+@media(min-width:768px){
+    .phone-mobile{
+        display: none;
     }
+    .btn-top-section{
+        position: relative;
+    }
+}
+
+@media(min-width:992px){
+
+}
+
+@media(min-width:1200px){
+
 }
