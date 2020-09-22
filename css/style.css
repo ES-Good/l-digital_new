@@ -32,7 +32,13 @@
 
 body{
     font-family: "PFCentroSansPro-Regular";
+    background-color: #f9f9f9;
 }
+
+.header{
+    background-color: #f9f9f9;
+}
+
 .logo-img{
     width: 45px;
 }
@@ -44,7 +50,9 @@ body{
 .bg-top-section{
     background-image: url(../img/top-section/bg-top-section.png);
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center bottom;
+    padding-bottom: 50px;
+    background-color: #f9f9f9;
 }
 
 .btn-red{
@@ -69,7 +77,7 @@ body{
 
 .title-big{
     font-family: "PFCentroSansPro-UBlack";
-    font-size: 46px;
+    font-size: 24px;
 }
 
 .img-r-column{
@@ -78,17 +86,18 @@ body{
 
 .desktop-ofers{
     margin-top: 200px;
+    display: none;
 }
 
 .discription-top-section{
-    font-size: 24px;
+    font-size: 18px;
     color: #616161;
 }
 
 .container-ofer{
     padding: 20px;
     border-radius: 15px;
-    box-shadow: 0 0 15px #827f7f;
+    box-shadow: 0 0 20px #d6c8c8;
 }
 
 .ofer,
@@ -104,4 +113,13 @@ body{
 .ofer-discription{
     color: #616161;
     font-size: 24px;
+}
+
+.btn-top-section__desctop{
+    display: none;
+}
+
+.btn-top-section__mobile{
+    display: block;
+    margin-top: 50px;
 }
