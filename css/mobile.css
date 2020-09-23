@@ -11,6 +11,9 @@
     .desktop-ofers{
         display: flex;
     }
+    .mobile-ofers{
+        display: none;
+    }
     .discription-top-section{
         font-size: 24px;
     }

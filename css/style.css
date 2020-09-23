@@ -52,6 +52,7 @@ body{
     background-repeat: no-repeat;
     background-position: center bottom;
     padding-bottom: 50px;
+    padding-top: 100px;
     background-color: #f9f9f9;
 }
 
@@ -89,6 +90,11 @@ body{
     display: none;
 }
 
+.mobile-ofers{
+    overflow: hidden;
+    margin-top: 30px;
+}
+
 .discription-top-section{
     font-size: 18px;
     color: #616161;
@@ -100,19 +106,25 @@ body{
     box-shadow: 0 0 20px #d6c8c8;
 }
 
+.container-ofer_mobile{
+    margin: 0 15px;
+    background-color: #fff;
+}
+
 .ofer,
 .ofer-discription{
     text-align: center;
 }
 
 .ofer{
-    font-size: 60px;
+    /* font-size: 60px; */
+    font-size: 50px;
     font-family: "Montserrat-Black";
 }
 
 .ofer-discription{
     color: #616161;
-    font-size: 24px;
+    font-size: 18px;
 }
 
 .btn-top-section__desctop{
