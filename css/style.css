@@ -107,7 +107,8 @@ body{
 }
 
 .container-ofer_mobile{
-    margin: 0 15px;
+    margin:15px;
+    box-shadow: 0 0 15px #d6c8c8;
     background-color: #fff;
 }
 
@@ -133,5 +134,5 @@ body{
 
 .btn-top-section__mobile{
     display: block;
-    margin-top: 50px;
+    margin: 50px auto 0;
 }
