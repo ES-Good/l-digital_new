@@ -199,6 +199,7 @@ body{
     text-decoration: none;
     color: #fff;
     overflow: hidden;
+    height: 450px;
 }
 
 .card-project img{
