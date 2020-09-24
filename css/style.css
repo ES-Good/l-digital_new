@@ -32,7 +32,7 @@
 
 body{
     font-family: "PFCentroSansPro-Regular";
-    background-color: #f9f9f9;
+    background-color: #fff;
 }
 
 .header{
@@ -225,11 +225,39 @@ body{
 
 .card-project__title-container-title{
     font-family: "PFCentroSansPro-Bold";
-    font-size: 18px;
+    font-size: 20px;
 }
 
-.title-presentation{
+.title-blue{
     font-size: 36px;
     font-family: "PFCentroSansPro-UBlack";
     color: #293352;
+}
+
+.reviews__container{
+    max-width: 320px;
+    background-color: #f9f9f9;
+    padding: 10px 40px;
+    margin: 20px;
+}
+
+.reviews__container__header{
+    position: relative;
+}
+
+.reviews__container__logo{
+    width: 100px;
+    position: absolute;
+    top: -30px;
+    background-color: #fff;
+}
+
+.reviews__container__title,
+.name{
+    font-size: 18px;
+    font-family: "PFCentroSansPro-Bold";
+}
+
+.reviews__container__title{
+    margin-left: 105px;
 }
