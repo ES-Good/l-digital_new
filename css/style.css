@@ -64,7 +64,7 @@ body{
     font-weight: bold;
     border-radius: 30px;
     padding: 15px 35px;
-    font-size: 18px;
+    font-size: 16px;
     font-family: "PFCentroSansPro-Bold";
 }
 
@@ -143,7 +143,7 @@ body{
 
 .card-item{
     padding: 5px;
-    margin: 10px 0;
+    margin: 5px 0;
 }
 
 .card-item__inner{
@@ -166,4 +166,29 @@ body{
     font-family: "PFCentroSansPro-Bold";
     font-size: 15px;
     text-align: center;
+}
+
+.section-sentence{
+    background-image: url(../img/sentence-section/bg-sentence.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 0;
+}
+
+.title-sentence{
+    font-size: 24px;
+    font-family: "PFCentroSansPro-Bold";
+}
+
+.sentence-text{
+    font-family: "PFCentroSansPro-Bold";
+    margin: 20px 0;
+}
+
+.sentence-mobile-girl{
+    margin-bottom: 25px;
+}
+
+.sentence-desctop-girl{
+    display: none;
 }
