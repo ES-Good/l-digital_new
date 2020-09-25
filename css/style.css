@@ -316,31 +316,3 @@ body{
 .btn-form:focus{
     outline: none;
 }
-
-#map {
-    width: 430px;
-    height: 320px;
-    border: 1px solid black;
-    margin: 0;
-    padding: 0;
-    background-color:#ccc;
-    overflow:hidden;
-}
-
-.smallMap {
-    width: 300px !important;
-    height: 200px !important;
-}
-
-#toggler {
-    left: 5px;
-    top: 5px;
-    font-size: 12px;
-}
-
-#checkbox_block {
-    left: 163px;
-    top: 8px;
-    font-size: 13px;
-    text-shadow: 1px 1px 0 #FFF;
-}
