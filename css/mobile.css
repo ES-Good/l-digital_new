@@ -17,6 +17,9 @@
     .btn-red{
         font-size: 18px;
     }
+    .bg-red-form h3{
+        font-size: 28px;
+    }
 }
 
 @media(min-width:768px){

@@ -23,6 +23,14 @@
   }
 
 @font-face {
+    font-family: "PFCentroSansPro-Black";
+    src: url("../fonts/PFCentroSansPro-Black.woff") format("woff"),
+      url("../fonts/PFCentroSansPro-Black.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+  }
+
+@font-face {
     font-family: "PFCentroSansPro-UBlack";
     src: url("../fonts/PFCentroSansPro-UBlack.woff") format("woff"), 
       url("../fonts/PFCentroSansPro-UBlack.woff2") format("woff2"); 
@@ -272,4 +280,39 @@ body{
     display: block;
     position: absolute;
     bottom: 15px;
+}
+
+.form-bg{
+    background-image: url(../img/form/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-red-form{
+    background-color: rgba(237,91,101,0.8);
+    border-radius: 15px;
+}
+
+.bg-red-form h3{
+    font-family: "PFCentroSansPro-Black";
+    font-size: 24px;
+}
+
+.form-elem{
+    width: 100%;
+    border-radius: 7px;
+    padding: 10px;
+    border: none;
+    outline: none;
+}
+
+.btn-form{
+    background-color: #fff;
+    color: #000;
+    border-radius: 30px;
+    font-family: "PFCentroSansPro-Bold";
+}
+
+.btn-form:focus{
+    outline: none;
 }
