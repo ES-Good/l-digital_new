@@ -235,10 +235,12 @@ body{
 }
 
 .reviews__container{
-    max-width: 320px;
+    max-width: 260px;
     background-color: #f9f9f9;
-    padding: 10px 40px;
+    padding: 10px;
     margin: 20px;
+    height: 500px;
+    position: relative;
 }
 
 .reviews__container__header{
@@ -250,6 +252,8 @@ body{
     position: absolute;
     top: -30px;
     background-color: #fff;
+    max-height: 65px;
+    padding: 10px;
 }
 
 .reviews__container__title,
@@ -260,4 +264,12 @@ body{
 
 .reviews__container__title{
     margin-left: 105px;
+}
+
+.reviews__container span{
+    font-size: 13px;
+    font-weight: bold;
+    display: block;
+    position: absolute;
+    bottom: 15px;
 }
