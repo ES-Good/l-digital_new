@@ -316,3 +316,24 @@ body{
 .btn-form:focus{
     outline: none;
 }
+
+.map-link{
+    font-size: 14px;
+    align-items: center;
+    justify-content: space-around;
+    margin: 10px 0;
+    height: 50px;
+}
+
+.map-link img{
+    width: 80px;
+}
+
+.mobile-map-link{
+    display: flex;
+    width: 100%;
+}
+
+.desktop-map-link{
+    display: none;
+}
