@@ -120,7 +120,7 @@ body{
     box-shadow: 0 0 20px #d6c8c8;
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content: space-between;
 }
 
 .container-ofer_mobile{
@@ -261,6 +261,10 @@ body{
     height: 460px;
     position: relative;
     overflow: hidden;
+}
+
+.reviews__container:focus{
+    outline: none;
 }
 
 .reviews__container__header{
