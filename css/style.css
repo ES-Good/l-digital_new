@@ -74,6 +74,12 @@ body{
     padding: 15px 35px;
     font-size: 16px;
     font-family: "PFCentroSansPro-Bold";
+    transition: all 0.5s;
+}
+
+.btn-red:hover{
+    box-shadow: 0 0 15px #000;
+    text-shadow: 0 0 2px #000;
 }
 
 .text-dark{
@@ -315,6 +321,10 @@ body{
 
 .btn-form:focus{
     outline: none;
+}
+
+.btn-form:hover{
+    box-shadow: 0 0 15px #000;
 }
 
 .map-link{
