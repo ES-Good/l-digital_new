@@ -20,6 +20,9 @@
     .bg-red-form h3{
         font-size: 28px;
     }
+    .mobile-title-banner{
+        display: none;
+    }
 }
 
 @media(min-width:768px){
