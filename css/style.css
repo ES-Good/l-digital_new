@@ -163,6 +163,7 @@ body{
     margin: 0 15px;
     height: 420px;
     position: relative;
+    width: 270px;
 }
 
 .card__header{
