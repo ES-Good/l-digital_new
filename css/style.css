@@ -158,6 +158,52 @@ body{
     border-radius: 15px;
 }
 
+.card{
+    overflow: hidden;
+    margin: 0 15px;
+    height: 420px;
+    position: relative;
+}
+
+.card__header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 30px;
+    background-color: #ed5b65;
+    box-shadow: 0 0 10px #6f6f6f;
+    height: 80px;
+}
+
+.card-main{
+    padding: 5px 30px;
+}
+
+.prise-num{
+    font-family: "PFCentroSansPro-Bold";
+    position: absolute;
+    bottom: 0;
+}
+
+.prise-num::after{
+    content: '';
+    position: absolute;
+    top: 50%;
+    height: 2px;
+    background-color: red;
+    width: 150px;
+}
+
+.card__header__title{
+    margin-bottom: 0;
+    text-align: right;
+    color: #fff;
+}
+
+.card__header__ico{
+    width: 45px;
+}
+
 .card-item{
     padding: 5px;
     margin: 5px 0;
@@ -410,3 +456,4 @@ body{
     margin-top: 30px;
     font-size: 26px;
 }
+

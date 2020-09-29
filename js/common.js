@@ -18,6 +18,32 @@ $('.reviews').slick({
   variableWidth: true
 });
 
+$('.prise').slick({
+  centerMode: true,
+  centerPadding: '60px',
+  slidesToShow: 3,
+  responsive: [
+    {
+      breakpoint: 768,
+      settings: {
+        arrows: false,
+        centerMode: true,
+        centerPadding: '40px',
+        slidesToShow: 3
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        arrows: false,
+        centerMode: true,
+        centerPadding: '40px',
+        slidesToShow: 1
+      }
+    }
+  ]
+});
+
 inpTel.addEventListener('focus', _ => {
   if(!/^\+\d*$/.test(inpTel.value))
     inpTel.value = '+7';
