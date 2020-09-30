@@ -38,6 +38,14 @@
     font-style: normal;
   }
 
+.text-danger{
+    color: #ed5b65!important;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
 body{
     font-family: "PFCentroSansPro-Regular";
     background-color: #fff;
@@ -200,7 +208,7 @@ body{
 .card__header__title{
     margin: 0 auto;
     text-align: center;
-    color: red;
+    color: #ed5b65;
 }
 
 .card__header__ico{
