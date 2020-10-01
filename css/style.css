@@ -98,9 +98,16 @@ body{
     color: #ed5b65;
 }
 
+.form-top-section{
+    background-color: #ed5b65;
+    padding: 10px;
+    /* justify-content: space-around;
+    align-items: center; */
+}
+
 .title-big{
     font-family: "PFCentroSansPro-UBlack";
-    font-size: 24px;
+    font-size: 32px;
 }
 
 .img-r-column{
@@ -108,7 +115,7 @@ body{
 }
 
 .desktop-ofers{
-    margin-top: 200px;
+    margin-top: 150px;
     display: none;
 }
 
@@ -120,6 +127,23 @@ body{
 .discription-top-section{
     font-size: 18px;
     color: #616161;
+}
+
+.list-top-section{
+    margin: 15px 0!important;
+    padding: 0;
+}
+
+.list-top-section__item{
+    list-style-type: none;
+    font-size: 18px;
+
+}
+
+.list-top-section__item::before{
+    content: '\272a';
+    color: #ed5b65;
+    margin-right: 10px;
 }
 
 .container-ofer{
@@ -172,6 +196,11 @@ body{
     height: 420px;
     position: relative;
     width: 270px;
+}
+
+.card:focus{
+    outline: none;
+    border: 4px solid #ed5b65;
 }
 
 .card__header{
@@ -384,6 +413,7 @@ body{
     color: #000;
     border-radius: 30px;
     font-family: "PFCentroSansPro-Bold";
+    border: none;
 }
 
 .btn-form:focus{
@@ -457,4 +487,3 @@ body{
     margin-top: 30px;
     font-size: 26px;
 }
-
