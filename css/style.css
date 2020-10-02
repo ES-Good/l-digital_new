@@ -148,10 +148,29 @@ body{
 
 }
 
+.anim{
+    position: absolute;
+    left: 55%;
+    width: 100px;
+    transition: all 1s;
+    animation: rotate 5s infinite;
+}
+
+@keyframes rotate{
+    0% {
+        transform: rotate(360deg);
+    }
+    50%{
+        transform: rotate(180deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
 .list-top-section__item{
     list-style-type: none;
     font-size: 18px;
-
 }
 
 .list-top-section__item::before{
