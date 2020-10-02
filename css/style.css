@@ -77,11 +77,22 @@ body{
 
 .bg-top-section{
     background-image: url(../img/top-section/bg-top-section.png);
-    background-repeat: no-repeat;
+    background-repeat: repeat-x;
     background-position: center bottom;
     padding-bottom: 50px;
     padding-top: 100px;
     background-color: #f9f9f9;
+    animation: wave 45s infinite linear;
+    animation-direction: alternate;
+}
+
+@keyframes wave{
+    0%{
+        background-position-x: 0px;
+    }
+    100%{
+        background-position-x: -3484px;
+    }
 }
 
 .btn-red{
