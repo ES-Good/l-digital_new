@@ -142,7 +142,9 @@ body{
 
 .list-top-section{
     margin: 55px 0!important;
-    padding: 0;
+    padding: 20px;
+    background-color: #fff;
+
 }
 
 .list-top-section__item{
