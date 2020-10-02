@@ -55,6 +55,12 @@ body{
     background-color: #f9f9f9;
 }
 
+.phone-header{
+    font-family: "PFCentroSansPro-Bold";
+    display: none;
+    margin: 0;
+}
+
 .logo-img{
     width: 45px;
 }
