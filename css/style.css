@@ -53,7 +53,7 @@ html {
 
 body{
     font-family: "PFCentroSansPro-Regular";
-    background-color: #fff;
+    background-color: #f9f9f9;
 }
 
 .header{
@@ -63,6 +63,7 @@ body{
 .phone-header{
     font-family: "PFCentroSansPro-Bold";
     display: none;
+    font-size: 18px;
     margin: 0;
 }
 
@@ -143,7 +144,7 @@ body{
 .list-top-section{
     margin: 55px 0!important;
     padding: 20px;
-    background-color: #fff;
+    background-color: #f9f9f9;
 
 }
 
