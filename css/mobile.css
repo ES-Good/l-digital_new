@@ -85,11 +85,14 @@
     .btn-red{
         font-size: 18px;
     }
+    .nav-item {
+        margin: 0px 15px;
+    }
 }
 
 @media(min-width:1200px){
     .title-top-section{
-        font-size: 46px;
+        font-size: 40px;
     }
     .discription-top-section{
         font-size: 24px;
@@ -99,5 +102,8 @@
     }
     .sentence-text{
         font-size: 18px;
+    }
+    .nav-item {
+        margin: 0px 20px;
     }
 }
