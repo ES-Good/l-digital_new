@@ -339,6 +339,8 @@ body{
     color: #fff;
     overflow: hidden;
     height: 450px;
+    width: 290px;
+    margin: 0 auto;
 }
 
 .card-project img{

@@ -31,6 +31,9 @@
     .list-top-section__item{
         font-size: 20px;
     }
+    .card-project{
+        width: 100%;
+    }
 }
 
 @media(min-width:768px){
@@ -105,5 +108,14 @@
     }
     .nav-item {
         margin: 0px 20px;
+    }
+    .container, .container-lg, .container-md, .container-sm, .container-xl {
+        max-width: 1470px;
+    }
+    .container, .container-lg, .container-md, .container-sm, .container-xl {
+        max-width: 1470px;
+    }
+    .card-project{
+        width: 320px;
     }
 }
