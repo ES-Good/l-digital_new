@@ -91,6 +91,17 @@
     .nav-item {
         margin: 0px 15px;
     }
+    .card-container:not(:last-child):after{
+        display: block;
+    }
+    .sentence{
+        width: 39%;
+    }
+    .positive, 
+    .negative{
+        height: 500px;
+        display: none;
+    }
 }
 
 @media(min-width:1200px){
