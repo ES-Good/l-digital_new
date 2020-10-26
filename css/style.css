@@ -619,3 +619,13 @@ body{
 .active-emotion{
     display: flex !important;
 }
+
+.btn-form-center{
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.btn-form-center:hover{
+    box-shadow: 0 0 10px #000;
+    text-decoration: none;
+}
