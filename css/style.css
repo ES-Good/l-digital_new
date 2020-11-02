@@ -87,11 +87,8 @@ body{
 }
 
 @keyframes wave{
-    0%{
-        background-position-x: 0px;
-    }
     100%{
-        background-position-x: -3484px;
+        background-position-x: -3px;
     }
 }
 
@@ -121,6 +118,7 @@ body{
     color: #ed5b65;
 }
 
+
 .form-top-section{
     background-color: #ed5b65;
     padding: 10px;
@@ -132,6 +130,14 @@ body{
     font-family: "PFCentroSansPro-UBlack";
     font-size: 32px;
 }
+
+.title-projects{
+    font-family: "PFCentroSansPro-Black";
+    /* font-size: 32px; */
+    font-size: 28px;
+    text-transform: uppercase;
+}
+
 
 .img-r-column{
     width: 100%;
@@ -266,6 +272,7 @@ body{
     font-family: "PFCentroSansPro-Bold";
     font-size: 22px;
     margin-top: 10px;
+    color: #293352;
 }
 
 .card__header__title{
@@ -330,43 +337,6 @@ body{
 
 .sentence-desctop-girl{
     display: none;
-}
-
-.card-project{
-    display: block;
-    position: relative;
-    text-decoration: none;
-    color: #fff;
-    overflow: hidden;
-    height: 450px;
-    width: 290px;
-    margin: 0 auto;
-}
-
-.card-project img{
-    width: 100%;
-    height: 450px;
-}
-
-.card-project:hover{
-    text-decoration: none;
-    color: #ffffff;
-}
-
-.card-project__title-container{
-    position: absolute;
-    bottom: -5px;
-    width: 100%;
-    height: 70%;
-    display: flex;
-    align-items: flex-end;
-    padding: 0 0 30px 10px;
-    background: linear-gradient(0deg, rgba(69,68,68,0.8995973389355743) 0%, rgba(69,68,68,0.7035189075630253) 35%, rgba(255,255,255,0) 100%);
-}
-
-.card-project__title-container-title{
-    font-family: "PFCentroSansPro-Bold";
-    font-size: 20px;
 }
 
 .title-blue{
@@ -628,4 +598,84 @@ body{
 .btn-form-center:hover{
     box-shadow: 0 0 10px #000;
     text-decoration: none;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+.card-project{
+    padding: 5px 25px;
+    border-top: 2px solid #ed5b65;
+    border-right: 1px solid #d2d2d2;
+    border-left: 1px solid #d2d2d2;
+    border-bottom: 1px solid #d2d2d2;
+    background-color: #f7f7f7;
+}
+
+.title-card-prgect{
+    font-size: 19px;
+}
+
+.card-project p {
+    font-size: 26px;
+    margin-bottom: 0;
+}
+
+.title_left-column-progect{
+    font-family: "PFCentroSansPro-Bold";
+}
+
+.container-card-progect{
+    position: relative;
+    top: -50px;
+}
+
+.btn-cases{
+    font-size: 40px;
+    background-color: #ed5b65;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 0px 13px;
+    position: absolute;
+    z-index: 20;
+    bottom: -15px;
+}
+
+.btn-cases:hover{
+    outline: none;
+    background-color: #e7e7e7;
+    color: #cdcdcd;
+}
+
+.btn-cases:focus{
+    outline: none;
+}
+
+.slide{
+    outline: none;
+}
+
+.slide img{
+    width: 80%;
+}
+
+.cases-next{
+    left: 170px;
+}
+
+.cases-prev{
+    left: 95px;
+}
+
+.counted{
+    position: absolute;
+    font-size: 38px;
+    color: #ed5b65;
+    left: 40px;
+    bottom: -28px;
+}
+
+#counted__num{
+    font-family: "PFCentroSansPro-Bold";
+    font-weight: bold;
 }

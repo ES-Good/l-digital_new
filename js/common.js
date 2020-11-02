@@ -5,6 +5,12 @@ let positiveBtn = document.getElementById('positive-btn');
 let negativeContainer = document.querySelector('.negative');
 let positiveContainer = document.querySelector('.positive');
 
+let countSlide = document.getElementById('counted__num');
+let slideAllText = document.getElementById('all-slide')
+let slideAll = document.querySelectorAll('.slide');
+
+slideAllText.innerText = slideAll.length;
+
 
 $('.mobile-ofers').slick({
   dots: true,
@@ -31,6 +37,17 @@ $('.prise').slick({
   slidesToShow: 1,
   centerMode: true,
   variableWidth: true
+});
+
+$('.slider').slick({
+  prevArrow: $('.prev'),
+  nextArrow: $('.next'),
+  prevArrow: '<button type="button" class="btn-cases cases-prev">&larr;</button>',
+  nextArrow: '<button type="button" class="btn-cases cases-next">&rarr;</button>'
+});
+
+$('.slider').on('afterChange', function(event, slick, currentSlide, nextSlide){ //счётчик слайдов
+  countSlide.innerText = currentSlide + 1;
 });
 
 inpTel.addEventListener('focus', _ => {
