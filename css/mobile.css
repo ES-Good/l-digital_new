@@ -173,4 +173,7 @@
     .container-card-progect{
         top: -50px;
     }
+    .offer__name{
+        font-size: 24px;
+    }
 }

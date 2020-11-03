@@ -13,6 +13,53 @@
     <link rel="stylesheet" href="css/mobile.css">
 </head>
 <body>
+  <div class="loader">
+    <div class="l_main">
+      <div class="l_square"><span></span><span></span><span></span></div>
+      <div class="l_square"><span></span><span></span><span></span></div>
+      <div class="l_square"><span></span><span></span><span></span></div>
+      <div class="l_square"><span></span><span></span><span></span></div>
+    </div>
+    </div>
+  <script type="text/javascript">
+    window.onload = function () {
+      document.querySelector('.loader').classList.add('d-none');
+    }
+  </script>
+  <div class="modal fade border-modal" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content modal border-red">
+        <div class="modal-header">
+          <h5 class="modal-title text-blue" id="exampleModalLabel">Заказать услугу</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body p-0">
+            <div class="row bg-red flex-column flex-sm-row pt-3">
+              <div class="col-4 d-flex align-items-center mx-auto">
+                <img src="img/logo/logo_footer.png" alt="" class="img-fluid d-block mx-auto">
+              </div>
+              <div class="col-10 col-sm-8 mx-auto">
+                <form action="#" class="my-5">
+                  <div class="row  d-flex flex-column justify-content-around">
+                    <div class="col-sm-10 my-2 mx-auto">
+                      <input class="form-elem my-3 my-md-0" type="text" name="full-name" placeholder="Ваше Имя" pattern="^[А-Яа-яЁё\s]+$" required="">
+                    </div>
+                    <div class="col-sm-10 my-2 mx-auto">
+                      <input class="form-elem my-3 my-md-0" id="tel" type="tel" name="tel" placeholder="+7 (___)___-__-__" pattern="\+7\s?[\(]{0,1}9[0-9]{2}[\)]{0,1}\s?\d{3}[-]{0,1}\d{2}[-]{0,1}\d{2}" required="">
+                    </div>
+                    <div class="col-sm-8 mx-auto my-2">
+                      <button type="submit" class="form-elem btn-form my-3 my-md-0 text-nowrap">Получить консультацию</button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   <div class="position-fixed anim-gears">
     <img src="img/top-section/anim.png" alt="" id="img-rotate-right" class="img-rotate rotate-right">
     <img src="img/top-section/anim.png" alt="" id="img-rotate-left" class="img-rotate rotate-left position-absolute">
@@ -206,6 +253,48 @@
           <div class="card-main">
             <p class="prise-num">от 60 000 руб.</p>
             <p>Построение отдела продаж с нуля – достаточно сложный процесс, требующий определенных знаний и навыков. Мы гарантированно знаем как эффективно построить и организовать отдел продаж, чтобы он давал максимальный результат с нуля.</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-6 col-lg-2 mt-4">
+          <div class="offer border-red d-flex align-items-center" data-toggle="modal" data-target="#myModal">
+            <h3 class="offer__name w-100 text-center text-blue">SMM</h3>
+          </div>
+        </div>
+        <div class="col-6 col-lg-3 mt-4">
+          <div class="offer border-red d-flex align-items-center" data-toggle="modal" data-target="#myModal">
+            <h3 class="offer__name w-100 text-center text-blue">Создание сайтов</h3>
+          </div>
+        </div>
+        <div class="col-6 col-lg-4 mt-4">
+          <div class="offer border-red d-flex align-items-center" data-toggle="modal" data-target="#myModal">
+            <h3 class="offer__name w-100 text-center text-blue">Реклама в социальных сетях</h3>
+          </div>
+        </div>
+        <div class="col-6 col-lg-3 mt-4">
+          <div class="offer border-red d-flex align-items-center" data-toggle="modal" data-target="#myModal">
+            <h3 class="offer__name w-100 text-center text-blue">Настройка <br> Yandex и Google</h3>
+          </div>
+        </div>
+        <div class="col-6 col-lg-4 mt-4">
+          <div class="offer border-red d-flex align-items-center" data-toggle="modal" data-target="#myModal">
+            <h3 class="offer__name w-100 text-center text-blue">Маркетинговая стратегия</h3>
+          </div>
+        </div>
+        <div class="col-6 col-lg-3 mt-4">
+          <div class="offer border-red d-flex align-items-center" data-toggle="modal" data-target="#myModal">
+            <h3 class="offer__name w-100 text-center text-blue">Отдел продаж <br> под ключ</h3>
+          </div>
+        </div>
+        <div class="col-6 col-lg-3 mt-4">
+          <div class="offer border-red d-flex align-items-center" data-toggle="modal" data-target="#myModal">
+            <h3 class="offer__name w-100 text-center text-blue">Сквозная аналитика</h3>
+          </div>
+        </div>
+        <div class="col-6 col-lg-2 mt-4">
+          <div class="offer border-red d-flex align-items-center" data-toggle="modal" data-target="#myModal">
+            <h3 class="offer__name w-100 text-center text-blue">SEO <br>оптимизация</h3>
           </div>
         </div>
       </div>
