@@ -82,13 +82,13 @@ body{
     padding-bottom: 50px;
     padding-top: 100px;
     background-color: #f9f9f9;
-    animation: wave 45s infinite linear;
+    animation: wave 5s infinite linear;
     animation-direction: alternate;
 }
 
 @keyframes wave{
     100%{
-        background-position-x: -3px;
+        background-position-x: -500px;
     }
 }
 
@@ -133,7 +133,6 @@ body{
 
 .title-projects{
     font-family: "PFCentroSansPro-Black";
-    /* font-size: 32px; */
     font-size: 28px;
     text-transform: uppercase;
 }
@@ -638,7 +637,7 @@ body{
     padding: 0px 13px;
     position: absolute;
     z-index: 20;
-    bottom: -15px;
+    top: -15px;
 }
 
 .btn-cases:hover{
@@ -672,7 +671,7 @@ body{
     font-size: 38px;
     color: #ed5b65;
     left: 40px;
-    bottom: -28px;
+    top: -12px;
 }
 
 #counted__num{
