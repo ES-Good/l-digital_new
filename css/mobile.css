@@ -131,6 +131,17 @@
     .card-project p{
         font-size: 32px;
     }
+    .anim-gears{
+        bottom: auto;
+        top: 75px;
+    }
+    .img-rotate{
+        width: 100px;
+    }
+    .rotate-left {
+        top: 37px;
+        left: -66px;
+    }
 }
 
 @media(min-width:1200px){

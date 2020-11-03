@@ -681,17 +681,16 @@ body{
 
 .anim-gears{
     right: 0;
-    top: 80px;
     z-index: 99;
+    bottom: 55px;
 }
 
-.rotate-right{
+.img-rotate{
+    width: 80px;
     transition: all 0.1s;
-    width: 100px;
 }
 
 .rotate-left{
-    top: 57px;
+    top: 34px;
     left: -50px;
-    width: 100px;
 }
