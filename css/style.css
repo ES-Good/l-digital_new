@@ -82,13 +82,13 @@ body{
     padding-bottom: 50px;
     padding-top: 100px;
     background-color: #f9f9f9;
-    animation: wave 5s infinite linear;
-    animation-direction: alternate;
+    animation: wave 10s infinite linear;
+    animation-direction: normal;
 }
 
 @keyframes wave{
     100%{
-        background-position-x: -500px;
+        background-position-x: -1920px;
     }
 }
 
