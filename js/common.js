@@ -9,8 +9,15 @@ let countSlide = document.getElementById('counted__num');
 let slideAllText = document.getElementById('all-slide')
 let slideAll = document.querySelectorAll('.slide');
 
+let imgRight = document.getElementById('img-rotate-right');
+let imgLeft = document.getElementById('img-rotate-left');
+
 slideAllText.innerText = slideAll.length;
 
+window.onscroll = function () {
+  imgRight.style.transform = "rotate("+window.pageYOffset/4 + "deg)";
+  imgLeft.style.transform = "rotate(-"+window.pageYOffset/4 + "deg)";
+}
 
 $('.mobile-ofers').slick({
   dots: true,

@@ -678,3 +678,20 @@ body{
     font-family: "PFCentroSansPro-Bold";
     font-weight: bold;
 }
+
+.anim-gears{
+    right: 0;
+    top: 80px;
+    z-index: 99;
+}
+
+.rotate-right{
+    transition: all 0.1s;
+    width: 100px;
+}
+
+.rotate-left{
+    top: 57px;
+    left: -50px;
+    width: 100px;
+}
