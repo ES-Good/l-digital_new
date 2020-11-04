@@ -14,6 +14,7 @@ let imgLeft = document.getElementById('img-rotate-left');
 
 slideAllText.innerText = slideAll.length;
 
+
 window.onscroll = function () {
   imgRight.style.transform = "rotate("+window.pageYOffset/6 + "deg)";
   imgLeft.style.transform = "rotate(-"+window.pageYOffset/6 + "deg)";
