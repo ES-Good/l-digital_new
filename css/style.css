@@ -37,13 +37,12 @@
     font-weight: normal;
     font-style: normal;
   }
-
-
-  body,html{height:100%;width:100%;overflow-x:hidden}
-  body{margin:0;}
-  .loader{height:100%;
-    width:100%;
-    background:#FA3663;
+  .loader{    
+    height: 100%;
+    width: 100%;
+    background: #FA3663;
+    position: fixed;
+    z-index: 9999;
 }
   .loader .l_main{position:absolute;top:50%;left:50%;width:172px;height:128px;margin:0;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%)}
   @media (max-width:550px){.loader{-webkit-transform:scale(0.75);transform:scale(0.75)}}
@@ -74,7 +73,9 @@
   @keyframes animsquare4{0%,20%,80%,100%{-webkit-transform:translate(0px,0px) rotate(0deg);transform:translate(0px,0px) rotate(0deg)}45%,55%{-webkit-transform:translate(-40px,0px) rotate(-90deg);transform:translate(-40px,0px) rotate(-90deg)}}
 
 
-
+.loader-non-scroll{
+    overflow: hidden;
+}
 
 
 

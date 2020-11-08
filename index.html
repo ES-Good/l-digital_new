@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/mobile.css">
 </head>
-<body>
+<body class="loader-non-scroll">
   <div class="loader">
     <div class="l_main">
       <div class="l_square"><span></span><span></span><span></span></div>
@@ -23,7 +23,8 @@
     </div>
   <script type="text/javascript">
     window.onload = function () {
-      document.querySelector('.loader').classList.add('d-none');
+      document.querySelector('.loader').remove();
+      document.body.classList.remove('loader-non-scroll')
     }
   </script>
   <div class="modal fade border-modal" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
