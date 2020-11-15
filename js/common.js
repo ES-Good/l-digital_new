@@ -14,11 +14,9 @@ let imgLeft = document.getElementById('img-rotate-left');
 
 slideAllText.innerText = slideAll.length;
 
-console.log('sas');
 window.onscroll = function () {
   imgRight.style.transform = "rotate("+window.pageYOffset/6 + "deg)";
   imgLeft.style.transform = "rotate(-"+window.pageYOffset/6 + "deg)";
-  console.log(+window.pageYOffset);
 }
 
 $('.mobile-ofers').slick({
